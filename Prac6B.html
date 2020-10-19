@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			section {
+				padding-right: 30px;
+			}
+			h1 {
+				color: blue;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>DTE First Year Engineering Admission registration 2021</h1>
+		<div style="display: flex">
+			<section style="width: 30%">
+				<form>
+					<fieldset>
+						<legend>Personal Details:</legend>
+
+						<label for="fname">First name:</label>
+						<input type="text" id="fname" name="fname" />
+						<br /><br />
+
+						<label for="mname">Middle name:</label>
+						<input
+							type="text"
+							id="mname"
+							name="mname"
+						/><br /><br />
+
+						<label for="lname">Last name:</label>
+						<input
+							type="text"
+							id="lname"
+							name="lname"
+						/><br /><br />
+
+						<label for="fname">Parent's name:</label>
+						<input
+							type="text"
+							id="pname"
+							name="pname"
+						/><br /><br />
+
+						<label for="mobileNo">Mobile No</label>
+						<input
+							type="number"
+							id="mobileNo"
+							name="mobile Number"
+						/>
+						<br /><br />
+
+						<label for="email">Email:</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+						/><br /><br />
+
+						<label for="aadhar">Aadhar No</label>
+						<input
+							type="number"
+							id="aadharNo"
+							name="aadhar Number"
+						/>
+						<br /><br />
+
+						<label for="category">Category</label>
+						<select name="category" id="category" required>
+							<option value="Open">Open</option>
+							<option value="OBC">OBC</option>
+							<option value="SC">SC</option>
+							<option value="ST">ST</option>
+							<option value="Other">Other</option>
+						</select>
+						<br /><br />
+
+						<label for="state">State</label>
+						<input
+							type="text"
+							id="state"
+							name="state"
+						/><br /><br />
+
+						<label for="address">Address</label>
+						<textarea
+							name="address"
+							id="address"
+							cols="30"
+							rows="10"
+						></textarea>
+						<br /><br />
+						<input
+							type="submit"
+							value="Submit"
+							onclick="alert('Response Submiited')"
+						/>
+						<input type="reset" value="Reset" />
+					</fieldset>
+				</form>
+			</section>
+
+			<section style="width: 30%">
+				<form>
+					<fieldset>
+						<legend>Education Information</legend>
+
+						<label for="sscmarks">SSC Marks</label>
+						<input type="number" id="ssc" name="ssc" /> <br /><br />
+
+						<label for="hscmarks">HSC Marks</label>
+						<input type="number" id="hsc" name="hsc" /> <br /><br />
+
+						<label for="pcm">PCM Percentage</label>
+						<input type="number" id="pcm" name="pcm" /> <br /><br />
+
+						<label for="hscCollegeName">HSC College Name</label>
+						<input type="text" name="clgname" id="clgname" />
+						<br /><br />
+
+						<label for="boardstate">Board State</label>
+						<select name="boardstate" id="boardstate">
+							>
+							<option value="Maharashtra">Maharashtra</option>
+							<option value="TamilNadu">TamilNadu</option>
+							<option value="Up">Up</option>
+							<option value="Other">Other</option>
+						</select>
+						<br /><br />
+						<label for="seatno">Exam Seat No</label>
+						<input type="text" name="seatno" id="seatno" />
+						<br /><br />
+						<input
+							type="submit"
+							value="Submit"
+							onclick="alert('Response Submiited')"
+						/>
+						<input type="reset" value="Reset" />
+					</fieldset>
+				</form>
+			</section>
+
+			<section style="width: 30%">
+				<form>
+					<fieldset>
+						<legend>Institute Preferences</legend>
+
+						<label for="institute branch">Institute Branch</label>
+						<input list="branches" name="branches" id="branches" />
+						<datalist id="bs">
+							<option value="CSE"></option>
+							<option value="IT"></option>
+							<option value="ECE"></option>
+							<option value="Civil"></option>
+							<option value="Mechanical"></option></datalist
+						><br /><br />
+
+						<label for="institute Code">Institute Code</label>
+						<input
+							type="text"
+							id="institute code"
+							name="institute code"
+						/><br /><br />
+
+						<label for="institute name">Institute Name</label>
+						<input
+							type="text"
+							name="institute name"
+							id="institute name"
+						/><br /><br />
+						<input
+							type="submit"
+							value="Submit"
+							onclick="alert('Response Submiited')"
+						/>
+						<input type="reset" value="Reset" />
+					</fieldset>
+				</form>
+			</section>
+		</div>
+	</body>
+</html>
